@@ -1,1 +1,2 @@
-#chat app using django
+#  Chat App Using Django and channels
+
