@@ -37,8 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'chat_app',
     'channels',
+    'chat_app',
 ]
 
 MIDDLEWARE = [
@@ -126,5 +126,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-ASGI_APPLICATION = "chat.routing.application" 
+ASGI_APPLICATION = 'chat.routing.application'
 
