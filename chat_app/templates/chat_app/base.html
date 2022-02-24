@@ -9,4 +9,12 @@
 <body>
     hello world
 </body>
+
+<script>
+    const chatSocket = new WebSocket(
+        'ws://' + window.location.host + '/ws/chat/' + roomName + '/'
+    )
+</script>
+
+
 </html>
